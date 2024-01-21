@@ -14,6 +14,7 @@ class ContactAdapter(val contactList: List<Contacts>) :RecyclerView.Adapter<Cont
         fun bind(contact: Contacts){
             nameItem.text=contact.name
             phoneItem.text=contact.phone
+
         }
 
     }
